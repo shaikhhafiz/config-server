@@ -1,0 +1,14 @@
+server:
+  port: 4002
+spring:
+  application:
+    name: config-server
+  security:
+    user:
+      name: root
+      password: 12345
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/shaikhhafiz/config-files.git
