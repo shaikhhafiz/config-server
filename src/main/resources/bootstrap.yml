@@ -1,5 +1,5 @@
 server:
-  port: 4002
+  port: 4003
 spring:
   application:
     name: config-server
@@ -9,7 +9,6 @@ spring:
       password: 12345
   cloud:
     config:
-      allowOverride: true
       server:
         git:
           uri: file://media/github/erp/erp-config-files

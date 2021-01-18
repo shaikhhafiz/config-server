@@ -1,6 +1,7 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 Dockerfile
+
 ### STS ###
 .apt_generated
 .classpath
