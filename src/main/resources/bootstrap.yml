@@ -9,6 +9,7 @@ spring:
       password: 12345
   cloud:
     config:
+      allowOverride: true
       server:
         git:
-          uri: https://github.com/shaikhhafiz/erp-config-files.git
+          uri: file://media/github/erp/erp-config-files
