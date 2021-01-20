@@ -1,5 +1,5 @@
 server:
-  port: 4003
+  port: 4002
 spring:
   application:
     name: config-server
